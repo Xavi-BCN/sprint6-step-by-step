@@ -1,7 +1,8 @@
-function Escena(){
 
+function Escena({text}){
+    
     return (
-        <h4>El nostre heroi estava surant per l'espai sideral quan a la llunyania va albirar una nau espacial</h4>
+        <h4>{text}</h4>
     );
 }
 
